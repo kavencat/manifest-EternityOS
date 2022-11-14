@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="ka"
+	   revision="arrow-13.0"
+	   fetch="https://github.com/kavencat" />
+  
+  <remote  name="mikuland"
+	   revision="snowland"
+	   fetch="https://github.com/Miku-UI" />
+  
+  <remote name="diva"
+	    revision="TDA"
+	    fetch="https://github.com/Diva-Room" />
+  
   <remote name="eternity"
           fetch="https://github.com/EternityOS-Plus-Tiramisu"
           revision="13" />
@@ -43,9 +55,19 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="eternity" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="eternity" />
   <project path="packages/apps/EternitySettings" name="packages_apps_EternitySettings" remote="eternity" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater-arrow" remote="ka" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="eternity" />
   <project path="vendor/support" name="vendor_support" remote="eternity" />
+  
+  <project path="device/xiaomi/wayne" name="Miku_device_xiaomi_wayne" remote="diva" />
+  <project path="kernel/xiaomi/wayne" name="android_kernel_xiaomi_wayne-4.19" remote="ka" />
+  <project path="vendor/xiaomi/wayne" name="Miku_vendor_xiaomi_wayne" remote="diva" />
+	
+  <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" revision="TDA" />
+  <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" revision="TDA" />
+  <project path="hardware/qcom-caf/sdm660/media" name="platform_hardware_qcom-caf_sdm660_media" groups="qcom,pdk-qcom" remote="mikuland" revision="TDA" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="mikuland" />
 
 </manifest> 
