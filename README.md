@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/EternityOS-Plus-Tiramisu/manifest -b 13
+repo init -u https://github.com/kavencat/manifest-EternityOS -b 13
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
