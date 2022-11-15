@@ -57,8 +57,8 @@
   <project path="packages/apps/EternitySettings" name="packages_apps_EternitySettings" remote="eternity" />
 
   <!-- Vendor repos -->
-  <project path="vendor/aosp" name="vendor_aosp" remote="eternity" />
-  <project path="vendor/support" name="vendor_support" remote="ka" revision="13" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="ka" revision="13" />
+  <project path="vendor/support" name="vendor_support" remote="eternity" />
   
   <project path="device/xiaomi/wayne" name="Miku_device_xiaomi_wayne" remote="diva" />
   <project path="kernel/xiaomi/wayne" name="android_kernel_xiaomi_wayne-4.19" remote="ka" />
