@@ -60,9 +60,9 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="ka" revision="13" />
   <project path="vendor/support" name="vendor_support" remote="eternity" />
   
-  <project path="device/xiaomi/wayne" name="Miku_device_xiaomi_wayne" remote="diva" />
+  <project path="device/xiaomi/wayne" name="android_devices_xiaomi_wayne-4.19" remote="ka" revision="eternity" />
   <project path="kernel/xiaomi/wayne" name="android_kernel_xiaomi_wayne-4.19" remote="ka" />
-  <project path="vendor/xiaomi/wayne" name="Miku_vendor_xiaomi_wayne" remote="diva" />
+  <project path="vendor/xiaomi/wayne" name="android_vendor_xiaomi_wayne-4.19" remote="ka" revision="eternity" />
 	
   <project path="hardware/qcom-caf/sdm660/audio" name="platform_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="mikuland" revision="TDA" />
   <project path="hardware/qcom-caf/sdm660/display" name="platform_hardware_qcom-caf_sdm660_display" groups="pdk-qcom,qcom,qcom_display" remote="mikuland" revision="TDA" />
