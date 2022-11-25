@@ -118,6 +118,7 @@
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pixel" />
+  <project path="system/logging" name="system_logging" remote="pixel" />
   <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
