@@ -50,8 +50,8 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="eternity" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="eternity" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater-arrow" remote="ka" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="ka" remote="thirteen" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ka" remote="thirteen" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="eternity" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="eternity" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="eternity" />
