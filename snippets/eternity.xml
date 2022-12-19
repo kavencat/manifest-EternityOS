@@ -21,7 +21,7 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="eternity" />
 
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="ka" remote="13" />
+  <project path="frameworks/base" name="frameworks_base" remote="ka" revision="13" />
   <project path="frameworks/native" name="frameworks_native" remote="eternity" />
 
   <!-- General repos -->
@@ -50,13 +50,13 @@
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="eternity" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ka" remote="13" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ka" remote="thirteen" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ka" revision="13" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="ka" revision="thirteen" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="eternity" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="eternity" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="eternity" />
   <project path="packages/apps/EternitySettings" name="packages_apps_EternitySettings" remote="eternity" />
-  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="ka" remote="13" />
+  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="ka" revision="13" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="ka" revision="13" />
