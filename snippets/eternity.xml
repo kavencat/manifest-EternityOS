@@ -25,8 +25,9 @@
   <project path="frameworks/native" name="frameworks_native" remote="eternity" />
 
   <!-- General repos -->
+  <project path="manifest" name="manifest-EternityOS" remote="ka" revision="13" />
   <project path="bionic" name="bionic" remote="eternity" />
-  <project path="build/make" name="build" remote="eternity"> 
+  <project path="build/make" name="build" remote="ka" revision="13"> 
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -41,6 +42,7 @@
   </project>
 
   <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="ka" revision="thirteen" />
   <project path="system/sepolicy" name="system_sepolicy" remote="eternity" />
 
   <!-- Hardware repos -->
