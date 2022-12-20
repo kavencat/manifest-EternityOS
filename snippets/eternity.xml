@@ -22,7 +22,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="ka" revision="13" />
-  <project path="frameworks/native" name="frameworks_native" remote="eternity" />
+  <project path="frameworks/native" name="frameworks_native" remote="ka" revision="thirteen" />
 
   <!-- General repos -->
   <project path="manifest" name="manifest-EternityOS" remote="ka" revision="13" />
