@@ -59,6 +59,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="eternity" />
   <project path="packages/apps/EternitySettings" name="packages_apps_EternitySettings" remote="eternity" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" remote="ka" revision="13" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="ka" revision="thirteen" />
 
   <!-- Vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="ka" revision="13" />
